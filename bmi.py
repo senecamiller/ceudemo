@@ -1,8 +1,8 @@
 # create a pull request with that changes
 def calculate_bmi_with_meaning():
     # Ask user for weight and height
-    weight = float(input("Enter your weight in kilograms: "))
-    height = float(input("Enter your height in meters: "))
+    weight = float(input("Enter your weight in kilograms: 57"))
+    height = float(input("Enter your height in meters: 154"))
 
     # Calculate BMI
     bmi = weight / (height ** 2)
